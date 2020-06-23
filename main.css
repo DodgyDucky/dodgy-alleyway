@@ -1,0 +1,58 @@
+@font-face { font-family: LEMONMILK; src: url('Assets/LEMONMILK.otf'); }
+@font-face { font-family: LEMONMILK-I; src: url('Assets/LEMONMILK-I.otf'); }
+
+.sidenav 
+{
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    font-size: 2vw;
+    font-family: LEMONMILK;
+}
+
+.sidenav a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.sidenav a:hover 
+{
+    background: white;
+    color: black;
+    font-family: LEMONMILK-I;
+}
+
+.page-container 
+{
+    position: relative;
+    min-height: 100vh;
+}
+
+.footer
+{
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1vw;
+    font-family: LEMONMILK;
+}
+
+.footer a 
+{
+    float: right;
+    display: block;
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+}
