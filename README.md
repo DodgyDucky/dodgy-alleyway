@@ -1,4 +1,4 @@
-# Personal-Web
+# Dodgy Alleyway
 An experimental web.
 
-https://dodgyducky.github.io/Personal-Web/
+https://dodgyducky.github.io/dodgy-alleyway/
