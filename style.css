@@ -175,3 +175,13 @@ iframe
     padding: 5px;
 }
 
+.secret
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
