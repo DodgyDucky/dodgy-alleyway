@@ -170,3 +170,8 @@ table.center
     text-align: center;
 }
 
+iframe
+{
+    padding: 5px;
+}
+
