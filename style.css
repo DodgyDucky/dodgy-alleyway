@@ -116,6 +116,13 @@ img
     margin-right:auto;
     text-align: center;
 }
+
+.mod0
+{
+    color: white;
+
+}
+
 .mod1
 {
     color: black;
@@ -134,11 +141,16 @@ img
     left: 50%;
 }
 
-.mod3
+.mod3 
 {
     color: white;
-
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: LEMONMILK;
+    left: 50%;
 }
+
+
 
 .modimg
 {

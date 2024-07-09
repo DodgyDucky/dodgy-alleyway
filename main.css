@@ -47,6 +47,7 @@
     width: 100%;
     font-size: 1vw;
     font-family: LEMONMILK;
+    
 }
 
 .footer a 
@@ -56,4 +57,9 @@
     color: white;
     padding: 20px 16px;
     text-decoration: none;
+    
 }
+
+img {
+    vertical-align: middle;
+  }
