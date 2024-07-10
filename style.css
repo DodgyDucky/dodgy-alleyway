@@ -104,3 +104,20 @@
     border: White solid 5px;
     padding: 5px;
 }
+
+.box
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.box_text
+{
+    width: 15vw;
+    min-width: 300px;
+}
+
+.box_image
+{
+    padding: auto;
+}
