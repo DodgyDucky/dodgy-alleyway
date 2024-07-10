@@ -175,3 +175,8 @@ iframe
     padding: 5px;
 }
 
+img 
+{
+    vertical-align: middle;
+}
+
