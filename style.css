@@ -119,6 +119,13 @@
     padding: 50px;
 }
 
+.box_music
+{
+    width: 15vw;
+    min-width: 300px;
+    padding: 50px;
+}
+
 .box_image
 {
     padding: 50px;
