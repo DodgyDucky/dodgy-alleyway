@@ -100,10 +100,9 @@
     left: 50%;
 }
 
-.modimg
+.footer_img
 {
-    border: White solid 5px;
-    padding: 5px;
+    vertical-align:middle;
 }
 
 .box
@@ -132,8 +131,3 @@
     position: absolute;
     bottom: 0;
 }
-
-/*.box_image
-{
-    padding: 50px;
-}*/
