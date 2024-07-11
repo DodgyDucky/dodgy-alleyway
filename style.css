@@ -116,7 +116,7 @@
 .box_text
 {
     width: 15vw;
-    min-width: 300px;
+    min-width: 500px;
     padding: 50px;
     position:relative;
 }
@@ -124,7 +124,7 @@
 .box_music
 {
     width: 15vw;
-    min-width: 300px;
+    min-width: 500px;
     display:flex;
     flex-direction: column;
     align-items: center;
