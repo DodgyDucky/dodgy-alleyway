@@ -117,13 +117,3 @@ table.center
     margin-right:auto;
     text-align: center;
 }
-
-iframe
-{
-    padding: 5px;
-}
-
-img 
-{
-    vertical-align: middle;
-}
