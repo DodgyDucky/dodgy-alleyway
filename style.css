@@ -124,6 +124,8 @@
     width: 15vw;
     min-width: 300px;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .box_image
