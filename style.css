@@ -117,6 +117,7 @@
     width: 15vw;
     min-width: 300px;
     padding: 50px;
+    position:relative;
 }
 
 .box_music
