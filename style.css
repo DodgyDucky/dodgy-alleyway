@@ -110,6 +110,7 @@
     display: flex;
     flex-direction: row;
     padding: 50px;
+    justify-content: center;
 }
 
 .box_text
@@ -131,7 +132,7 @@
     bottom: 0;
 }
 
-.box_image
+/*.box_image
 {
     padding: 50px;
-}
+}*/
