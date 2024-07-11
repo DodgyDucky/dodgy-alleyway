@@ -109,15 +109,12 @@
 {
     display: flex;
     flex-direction: row;
-    margin-left:auto; 
-    margin-right:auto;
-    text-align: center;
 }
 
 .box_text
 {
     width: 15vw;
-    min-width: 300px;
+    min-width: none;
 }
 
 .box_image
