@@ -131,3 +131,8 @@
     position: absolute;
     bottom: 0;
 }
+
+.box_video
+{
+    display: flex;
+}
