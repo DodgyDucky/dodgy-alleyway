@@ -89,12 +89,13 @@
     font-family: LEMONMILK;
     float: left;
     left: 50%;
+    font-size: 25px;
 }
 
 .yap_text
 {
     color:white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .footer_img
