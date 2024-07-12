@@ -68,12 +68,12 @@
     text-align: center;
 }
 
-.mod0
+.feed_text
 {
     color: white;
 }
 
-.mod1
+.home_text
 {
     color: black;
     background-color: white;
@@ -81,7 +81,7 @@
     font-family: LEMONMILK;
 }
 
-.mod2 
+.header_text 
 {
     color: white;
     padding: 14px 16px;
@@ -91,13 +91,10 @@
     left: 50%;
 }
 
-.mod3 
+.yap_text
 {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: LEMONMILK;
-    left: 50%;
+    color:white;
+    font-size: 25px;
 }
 
 .footer_img

@@ -105,12 +105,6 @@ body
     background-attachment: scroll, fixed;
 }
 
-h2
-{
-    color:white;
-    font-size: 25px;
-}
-
 table.center 
 {
     margin-left:auto; 
