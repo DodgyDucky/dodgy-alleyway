@@ -90,6 +90,15 @@
     font-family: LEMONMILK;
 }
 
+.big_text
+{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: LEMONMILK;
+    font-size: 50px; 
+}
+
 .header_text 
 {
     color: white;
