@@ -68,6 +68,14 @@
     text-align: center;
 }
 
+.art_center
+{
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+    padding: 5px;
+}
+
 .feed_header
 {
     color: white;
