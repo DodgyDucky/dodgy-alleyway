@@ -100,7 +100,7 @@ input, select {
 /*My Stuff*/
 body
 {
-    background-size: auto, cover;
+    background-size:cover;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;
 }
