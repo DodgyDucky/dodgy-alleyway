@@ -160,3 +160,9 @@
 {
     display: flex;
 }
+
+.art_img
+{
+    height: 500px;
+    width: auto;
+}
