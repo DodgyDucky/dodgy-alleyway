@@ -169,9 +169,7 @@
 
 .blog_image
 {
-    height:50px;
-    width:50px;
-    padding: 14px 16px;
+    padding: 0px 16px;
     float: left;
     left: 50%;
 }
