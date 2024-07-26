@@ -166,3 +166,10 @@
     height: 500px;
     width: auto;
 }
+
+.blog_image
+{
+    padding: 14px 16px;
+    float: left;
+    left: 50%;
+}
