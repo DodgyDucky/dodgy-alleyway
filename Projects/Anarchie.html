@@ -9,6 +9,18 @@ BLOG<!DOCTYPE html>
     <link rel="shortcut icon" type="image/x-icon" href="../Assets/favicon.png" />
     <title>Dodgy Alleyway - Projects:Anarchie</title>
 
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+        });
+    </script> 
+
     <style>
         body
         {
@@ -19,16 +31,8 @@ BLOG<!DOCTYPE html>
 </head>
 <body>
     <div class="page-container">
-        <div class="sidenav">
-            <a href="../index.html">HOME</a>
-            <a href="../feed.html">FEED</a>
-            <a href="../prjcts.html">PROJECTS</a>
-            <a href="../docs.html">BLOG</a>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
+
+        <div id="header"></div>  <!-- Header -->  
 
         <!-- -------------------------------------- -->
 
@@ -229,18 +233,8 @@ BLOG<!DOCTYPE html>
         
         <!-- -------------------------------------- -->
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="footer">
-            <span>
-                <a href="https://djgvidoky.newgrounds.com"><img class="footer_img" src="../Assets/ng.png" height="25" width="30"> NewGrounds</a>
-                <a href="https://www.instagram.com/dodgy_ducky/"><img class="footer_img" src="../Assets/inst.png" height="25" width="25" > Instagram</a>
-                <a href="https://www.youtube.com/channel/UCnqfledNonI9yjQ61torRrQ"><img class="footer_img" src="../Assets/yt.png" height="25" width="35"> Youtube</a>
-            </span>
-        </div>
+        <div id="footer"></div> <!-- Footer -->
+        
     </div>
 </body>
 </html>
