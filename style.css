@@ -163,7 +163,7 @@
 
 .art_img
 {
-    height: 500px;
+    height: 250px;
     width: auto;
 }
 
@@ -223,7 +223,7 @@
     margin: auto;
     padding: 0;
     width: 90%;
-    max-width: 1200px;
+    max-width: 900px;
 }
 
 .close 
