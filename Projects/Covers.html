@@ -7,8 +7,19 @@
     <link rel="stylesheet" href="../style.css" type ="text/css"/>
     <link rel="stylesheet" href="../main.css" type ="text/css"/>
     <link rel="shortcut icon" type="image/x-icon" href="../Assets/favicon.png" />
-    <title>Dodgy Alleyway - Projects:Album Covers</title>
-    <!--Might rename to MUSIC-->
+    <title>Dodgy Alleyway - Projects:Music</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+            $("#header").load("../header.html"); 
+            $("#footer").load("../footer.html"); 
+            });
+        </script> 
 
     <style>
         body
@@ -20,17 +31,8 @@
 </head>
 <body>
     <div class="page-container">
-        <div class="sidenav">
-            <a href="../index.html">HOME</a>
-            <a href="../feed.html">FEED</a>
-            <a href="../prjcts.html">PROJECTS</a>
-            <a href="../docs.html">BLOG</a>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        
+        <div id="header"></div>  <!-- Header -->  
 
         <!-- -------------------------------------- -->
 
