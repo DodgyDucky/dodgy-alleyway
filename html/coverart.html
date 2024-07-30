@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css" type ="text/css"/>
+    <link rel="stylesheet" href="../css/style.css" type ="text/css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.png" />
+    <title>Dodgy Alleyway - Projects:Art - Cover Art</title>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("scripts/header.html"); 
+        $("#footer").load("scripts/footer.html"); 
+        });
+    </script> 
+    <script src="scripts/modal.js"></script>
+
+</head>
+<body>
+    <div class="page-container">
+        
+        <div id="header"></div>  <!-- Header -->  
+
+        <!-- -------------------------------------- -->
+
+        <!-- Images -->
+        <div class="lightbox_row">
+            <div class="lightbox_column">
+                <img src="../assets/art/coverart/1-a.png" onclick="openModal();currentSlide(1)" class="art_img">
+            </div>
+        </div>
+
+        <!-- Lightbox 1 -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="../assets/art/coverart/1-a.png" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="../assets/art/coverart/1-b.png" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="../assets/art/coverart/1-c.png" style="width:100%">
+                </div>
+
+                <!-- Controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                    <img class="demo cursor" src="../assets/art/coverart/1-a.png" style="width:100%" onclick="currentSlide(1)" alt="Test1">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../assets/art/coverart/1-b.png" style="width:100%" onclick="currentSlide(2)" alt="Test2">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../assets/art/coverart/1-c.png" style="width:100%" onclick="currentSlide(3)" alt="Test3">
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------------- -->
+
+        <div id="footer"></div> <!-- Footer -->  
+        
+    </div>
+</body>
+</html>
