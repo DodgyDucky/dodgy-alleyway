@@ -4,30 +4,10 @@ function openModal()
     document.getElementById("myModal1").style.display = "block";
 }
 
-function openModal() 
-{
-    document.getElementById("myModal2").style.display = "block";
-}
-
-function openModal() 
-{
-    document.getElementById("myModal3").style.display = "block";
-}
-
 /*Close*/
 function closeModal() 
 {
     document.getElementById("myModal1").style.display = "none";
-}
-
-function closeModal() 
-{
-    document.getElementById("myModal2").style.display = "none";
-}
-
-function closeModal() 
-{
-    document.getElementById("myModal3").style.display = "none";
 }
 
 var slideIndex = 1;
