@@ -180,6 +180,7 @@
     min-width: 500px;
     padding: 50px;
     position:relative;
+    justify-content: space-between;
 }
 
 /* LIGHTBOX */
