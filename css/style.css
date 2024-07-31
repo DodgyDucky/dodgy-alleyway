@@ -117,7 +117,14 @@
 
 .header_icons
 {
-    vertical-align:middle;/*fix this*/
+    align-items: center; 
+    float: left;
+}
+
+.container_icons
+{
+    float: left;
+    padding: 5px;
 }
 
 
@@ -198,7 +205,7 @@
     color:white;
     font-size: 20px;
     width: 55vw;
-    min-width: 500px;/*test this*/
+    min-width: 500px;
     padding: 50px;
     position:relative;
     text-align: justify;
