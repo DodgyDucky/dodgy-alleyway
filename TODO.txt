@@ -2,6 +2,7 @@
 - add and update social links 
   - add to about me and home page
   - update across projects
+-add password protection to blog
 
 - update pilgrim pages
 - finish nDie logo
