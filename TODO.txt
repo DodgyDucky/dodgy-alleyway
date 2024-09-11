@@ -1,0 +1,7 @@
+- remake footer to modified version from anarchie web
+- add and update social links 
+  - add to about me and home page
+  - update across projects
+
+- update pilgrim pages
+- finish nDie logo
