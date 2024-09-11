@@ -3,6 +3,7 @@
   - add to about me and home page
   - update across projects
 -add password protection to blog
+-fix soundcloud latest on home page
 
 - update pilgrim pages
 - finish nDie logo
