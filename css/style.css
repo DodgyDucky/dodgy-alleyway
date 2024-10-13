@@ -44,28 +44,46 @@
 /*Footer*/
 .footer
 {
-    overflow: hidden;
     background-color: black;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    font-size: 1vw;
-    font-family: LEMONMILK;
-    
+    padding: 70px 30px 20px;
 }
 
-.footer a 
+.footerIcons
 {
-    float: right;
-    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.footerIcons a
+{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.footerBottom
+{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p
+{
     color: white;
-    padding: 20px 16px;
-    text-decoration: none; 
 }
 
-.footer img
+.designer
 {
-    vertical-align:middle;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    
 }
 
 /*CLASSES*/
