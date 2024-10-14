@@ -44,6 +44,8 @@
 /*Footer*/
 .footer
 {
+    position: absolute;
+    bottom: 0;
     background-color: black;
     width: 100%;
     padding: 70px 30px 20px;
