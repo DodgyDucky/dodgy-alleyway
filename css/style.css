@@ -33,7 +33,7 @@
     
 }
 
-.sidenav a:hover 
+.sidenav a:hover, .dropdown:hover .dropbtn 
 {
     background: white;
     color: black;
