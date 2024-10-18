@@ -238,6 +238,13 @@
     font-size: 20px;
 }
 
+.italic_text
+{
+    font-style: italic;
+    color:white;
+    font-size: 20px;
+}
+
 .large_text
 {
     color: white;
