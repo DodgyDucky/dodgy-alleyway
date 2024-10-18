@@ -240,9 +240,9 @@
 
 .italic_text
 {
-    font-style: italic;
     color:white;
     font-size: 20px;
+    font-style: italic;
 }
 
 .large_text
