@@ -199,6 +199,13 @@
     left: 50%;
 }
 
+.store_image
+{
+    height: 200;
+    width: 200;
+    padding: 0px 16px;
+}
+
 .box
 {
     display: flex;
