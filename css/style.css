@@ -135,17 +135,6 @@
 }
 
 /*CLASSES*/
-.project_select
-{
-    margin-top: 65%;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: LEMONMILK;
-    float: right;
-    font-size: 25px;
-}
-
 .art_select
 {
     display: flex;
