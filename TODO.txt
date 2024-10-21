@@ -1,8 +1,8 @@
 - add and update social links 
   - add to about me and home page
   - update across projects
--add password protection to blog
--fix soundcloud latest on home page
+- add password protection to blog
+- fix soundcloud latest on home page
 - streamline anarchie and music pages
 - update pilgrim pages
 - finish nDie logo
