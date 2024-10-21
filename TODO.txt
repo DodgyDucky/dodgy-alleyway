@@ -3,8 +3,6 @@
   - update across projects
 -add password protection to blog
 -fix soundcloud latest on home page
-
+- streamline anarchie and music pages
 - update pilgrim pages
 - finish nDie logo
-
--add store
