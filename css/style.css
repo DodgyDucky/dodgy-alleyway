@@ -181,7 +181,11 @@
     vertical-align:middle;/*fix this*/
 }
 
-
+.tempart_image
+{
+    width: 200px;
+    height: auto;
+}
 .blog_image
 {
     padding: 0px 16px;
