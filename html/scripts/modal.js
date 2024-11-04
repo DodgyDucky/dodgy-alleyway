@@ -1,5 +1,5 @@
 /*Open*/
-function openModal() 
+function openModal1() 
 {document.getElementById('myModal').style.display = "block";}
 
 /*Close*/
