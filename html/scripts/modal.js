@@ -1,10 +1,10 @@
 /*Open*/
 function openModal() 
-{document.getElementById("myModal").style.display = "block";}
+{document.getElementById('myModal').style.display = "block";}
 
 /*Close*/
 function closeModal() 
-{document.getElementById("myModal").style.display = "none";}
+{document.getElementById('myModal').style.display = "none";}
 
 var slideIndex = 1;
 showSlides(slideIndex);
