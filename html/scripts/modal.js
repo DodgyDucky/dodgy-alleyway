@@ -7,7 +7,7 @@ function openModal2()
 
 /*Close*/
 function closeModal() 
-{document.getElementById('myModal').style.display = "none";}
+{document.getElementById('myModal1', 'myModal2').style.display = "none";}
 
 var slideIndex = 1;
 showSlides(slideIndex);
