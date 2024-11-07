@@ -2,6 +2,9 @@
 function openModal1() 
 {document.getElementById('myModal').style.display = "block";}
 
+function openModal2() 
+{document.getElementById('myModal').style.display = "block";}
+
 /*Close*/
 function closeModal() 
 {document.getElementById('myModal').style.display = "none";}
