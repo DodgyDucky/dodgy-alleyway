@@ -6,8 +6,11 @@ function openModal2()
 {document.getElementById('myModal2').style.display = "block";}
 
 /*Close*/
-function closeModal() 
-{document.getElementById('myModal1', 'myModal2').style.display = "none";}
+function closeModal1() 
+{document.getElementById('myModal1').style.display = "none";}
+
+function closeModal2() 
+{document.getElementById('myModal2').style.display = "none";}
 
 var slideIndex = 1;
 showSlides(slideIndex);
