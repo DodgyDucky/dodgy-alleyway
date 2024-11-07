@@ -1,9 +1,9 @@
 /*Open*/
 function openModal1() 
-{document.getElementById('myModal').style.display = "block";}
+{document.getElementById('myModal1').style.display = "block";}
 
 function openModal2() 
-{document.getElementById('myModal').style.display = "block";}
+{document.getElementById('myModal2').style.display = "block";}
 
 /*Close*/
 function closeModal() 
