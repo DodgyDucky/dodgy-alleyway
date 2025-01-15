@@ -154,13 +154,6 @@
     font-size: 25px;
 }
 
-/*Other*/
-.vl
-{
-    border-left: 3px solid var(--maincolour);
-    height: 500px;
-}
-
 /*Blog*/
 .blog-horizontal
 {
@@ -199,6 +192,13 @@
     position:relative;
     text-align: justify;
     font-family: NEXA;
+}
+
+/*Other*/
+.vl
+{
+    border-left: 3px solid var(--maincolour);
+    height: 500px;
 }
 
 .box
