@@ -1,45 +1,46 @@
-@font-face { font-family: LEMONMILK; src: url('../assets/LEMONMILK.otf'); }
-@font-face { font-family: LEMONMILK-I; src: url('../assets/LEMONMILK-I.otf'); }
+@font-face { font-family: AKIRA; src: url('../assets/Akira.otf'); }
+
+:root
+{
+    --maincolour: rgb(198, 145, 233);
+    --bloglow: #65006e;
+}
 
 /*HEADER & FOOTER*/
 .page-container 
 {
     position: relative;
     min-height: 100vh;
-    padding-top: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
 
 /*Header*/
 .sidenav 
 {
-    /*overflow: hidden;*/
-    background-color: black;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    font-size: 2vw;
-    font-family: LEMONMILK;
+    width: 10vw;
+    min-width: 300px;
+    padding: 50px;
+    font-size: 30px;
+    color: var(--maincolour);
     z-index: 1;
+    font-family: AKIRA;
 }
 
 .sidenav a 
 {
     float: left;
-    display: block;
-    color: white;
-    text-align: center;
+    color: var(--maincolour);
     padding: 14px 16px;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 .sidenav a:hover, .dropdown:hover .dropbtn 
 {
-    background: white;
-    color: black;
-    text-shadow: 2px 2px gray;
-    font-family: LEMONMILK;
+    color: white;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*This makes it glow*/
 }
 
 .dropdown 
@@ -50,9 +51,9 @@
   
 .dropdown .dropbtn 
 {
-    font-size: 2vw;  
+    font-size: 30px;  
     border: none;
-    color: white;
+    color: var(--maincolour);
     padding: 8px 16px;
     background-color: inherit;
     font-family: inherit;
@@ -62,7 +63,7 @@
 {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: var(--maincolour);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -80,7 +81,7 @@
   
 .dropdown-content a:hover 
 {
-    background-color: #ddd;
+    background-color: var(--maincolour);
 }
   
 .dropdown:hover .dropdown-content
@@ -95,7 +96,7 @@
     bottom: 0;
     background-color: black;
     width: 100%;
-    padding: 70px 30px 20px;
+    padding: 70px 0px 20px;
 }
 
 .footerIcons
@@ -135,57 +136,43 @@
     
 }
 
-/*CLASSES*/
-.art_select
+/*TEXT*/
+.home-text-box
 {
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    color: white;
+    width: 100%;
+    padding: 100px;
+    color: var(--maincolour);
+}
+
+.large_text
+{
+    color: var(--maincolour);
     padding: 14px 16px;
     text-decoration: none;
-    font-family: LEMONMILK;
+    font-family: AKIRA;
     font-size: 25px;
 }
 
-.work_in_progress 
+/*Other*/
+.vl
 {
-    margin-top: 10%;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: LEMONMILK;
-    font-size: 50px; 
-    text-align: center;
+    border-left: 3px solid var(--maincolour);
+    height: 500px;
 }
 
-.header_large
+/*Blog*/
+.blog-horizontal
 {
-    margin-left:auto; 
-    margin-right:auto;
-    text-align: center;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: LEMONMILK;
-    font-size: 50px;
+    height: 500px;
+    width: 100%;
+    padding: 100px;
+    color: var(--maincolour);
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    scrollbar-width: none; /*Might not work on some browsers*/
 }
 
-.header_icons
-{
-    vertical-align:middle;/*fix this*/
-}
-
-.container_icons
-{
-    vertical-align:middle;/*fix this*/
-}
-
-.tempart_image
-{
-    width: 300px;
-    height: auto;
-}
 .blog_image
 {
     padding: 0px 16px;
@@ -193,9 +180,23 @@
     left: 50%;
 }
 
-.store_image
+.date_text
 {
-    padding: 8px 10px;
+    color: white;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px var(--bloglow);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: AKIRA;
+    font-size: 25px;
+}
+
+.blog_text
+{
+    font-size: 20px;
+    width: 55vw;
+    min-width: 500px;
+    position:relative;
+    text-align: justify;
 }
 
 .box
@@ -204,226 +205,4 @@
     flex-direction: row;
     padding: 50px;
     justify-content: center;
-}
-
-.box_text
-{
-    width: 15vw;
-    min-width: 500px;
-    padding: 50px;
-    position:relative;
-}
-
-.box_music
-{
-    width: 15vw;
-    min-width: 500px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-}
-
-/*TEXTS*/
-.home_bar
-{
-    color: black;
-    background-color: white;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 16px;
-    padding-right: 16px;
-    font-family: LEMONMILK;
-}
-
-.small_text
-{
-    color:white;
-    font-size: 20px;
-}
-
-.italic_text
-{
-    color:white;
-    font-size: 20px;
-    font-style: italic;
-    padding: 0px 16px;
-    padding-bottom: 14px;
-}
-
-.large_text
-{
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: LEMONMILK;
-    font-size: 25px;
-}
-
-.header_text 
-{
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: LEMONMILK;
-    float: left;
-    left: 50%;
-    font-size: 25px;
-}
-
-.blog_text
-{
-    color:white;
-    font-size: 20px;
-    width: 55vw;
-    min-width: 500px;
-    position:relative;
-    text-align: justify;
-}
-
-/* LIGHTBOX */
-.row > .column 
-{
-    padding: 0 8px;
-}
-  
-.row:after 
-{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.column 
-{
-    float: left;
-    width: 25%;
-}
-
-.modal 
-{
-    display: none;
-    position: fixed;
-    z-index: 2;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
-}
-
-.modal-content 
-{
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 600px;
-}
-
-.close 
-{
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-}
-  
-.close:hover,.close:focus 
-{
-    color: #999;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.mySlides 
-{
-    display: none;
-}
-
-.prev,.next 
-{
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-.next 
-{
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,.next:hover 
-{
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.numbertext 
-{
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-.caption-container 
-{
-    text-align: center;
-    background-color: black;
-    padding: 2px 16px;
-    color: white;
-}
-
-img.demo 
-{
-    opacity: 0.6;
-}
-
-.active,.demo:hover 
-{
-  opacity: 1;
-}
-
-/*ANIMATION*/
-#scroll-text
-{
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    
-    -moz-animation: my-animation 15s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite;
-}
-
-@keyframes my-animation 
-{
-  from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-  to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
 }

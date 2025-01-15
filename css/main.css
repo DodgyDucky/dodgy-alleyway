@@ -100,7 +100,8 @@ input, select {
 /*My Stuff*/
 body
 {
-    background-image: url("../assets/bckgrnd.png");
+    /*background-image: url("../assets/backgrnd.jpg");*/
+    background-color: rgb(20,20,20);
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     background-attachment: fixed;
