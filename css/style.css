@@ -19,6 +19,7 @@
 
 
 /*Header*/
+/*Vertical*/
 .sidenav 
 {
     width: 10vw;
@@ -39,6 +40,33 @@
 }
 
 .sidenav a:hover, .dropdown:hover .dropbtn 
+{
+    color: white;
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*This makes it glow*/
+}
+
+/*Horizontal*/
+.sidenavb 
+{
+    width: 10vw;
+    min-width: 300px;
+    padding: 50px;
+    font-size: 30px;
+    color: var(--maincolour);
+    z-index: 1;
+    font-family: AKIRA;
+}
+
+.sidenavb a 
+{
+    float: left;
+    display: block;
+    color: var(--maincolour);
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+.sidenavb a:hover, .dropdown:hover .dropbtn 
 {
     color: white;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*This makes it glow*/
