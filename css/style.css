@@ -178,6 +178,7 @@
 {
     color: var(--maincolour);
     font-size: 16px;
+    padding: 14px 16px;
 }
 
 .large_text
