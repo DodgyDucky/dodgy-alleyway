@@ -189,6 +189,16 @@
     font-size: 25px;
 }
 
+.large_text_stroke
+{
+    color: transparent;
+    -webkit-text-stroke-width: 2px ;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: AKIRA;
+    font-size: 25px;
+}
+
 /*BLOG*/
 .blog-horizontal
 {
