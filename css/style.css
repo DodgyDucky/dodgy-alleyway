@@ -60,7 +60,7 @@
 .sidenavb a 
 {
     float: left;
-    display: contents; /*content*/
+    display: contents;
     color: var(--maincolour);
     padding: 14px 16px;
     text-decoration: none; 
