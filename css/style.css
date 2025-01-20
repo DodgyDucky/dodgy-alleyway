@@ -192,7 +192,8 @@
 .large_text_stroke
 {
     color: transparent;
-    -webkit-text-stroke-width: 2px ;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-family: AKIRA;
