@@ -3,7 +3,8 @@
 
 :root
 {
-    --maincolour: rgb(198, 145, 233);
+    --maincolour: white;
+    --highlightcolur: rgb(198, 145, 233);
     --bloglow: #9d00ff;
 }
 
