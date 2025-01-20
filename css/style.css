@@ -193,7 +193,7 @@
 {
     color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: var(--maincolour);
     padding: 14px 16px;
     text-decoration: none;
     font-family: AKIRA;
@@ -206,8 +206,7 @@
     height: 500px;
     width: 100%;
     padding: 100px;
-    color: white;
-    text-shadow:2px 1px var(--maincolour);
+    color: var(--maincolour);
     display: flex;
     flex-direction: column;
     overflow: scroll;
