@@ -1,5 +1,5 @@
 @font-face { font-family: AKIRA; src: url('../assets/Akira.otf'); }
-@font-face { font-family: NEXA; src: url('../assets/Nexa.ttf'); }
+@font-face { font-family: MOM; src: url('../assets/Mom.ttf'); }
 
 :root
 {
@@ -191,7 +191,7 @@
     min-width: 500px;
     position:relative;
     text-align: justify;
-    font-family: NEXA;
+    font-family: MOM;
 }
 
 /*Other*/
