@@ -161,7 +161,7 @@
     width: 100%;
     padding: 100px;
     color: white;
-    text-shadow:1px 1px var(--maincolour);
+    text-shadow:2px 1px var(--maincolour);
     display: flex;
     flex-direction: column;
     overflow: scroll;
