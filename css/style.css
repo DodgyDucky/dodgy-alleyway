@@ -182,7 +182,7 @@
 
 .large_text
 {
-    color: var(--maincolour);
+    color: var(--highlightcolur);
     padding: 14px 16px;
     text-decoration: none;
     font-family: AKIRA;
