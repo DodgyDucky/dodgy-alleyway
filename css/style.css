@@ -70,7 +70,7 @@
 
 .sidenavb a:hover, .dropdown:hover .dropbtn 
 {
-    color: black;
+    color: white;
     text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*This makes it glow*/
 }
 
@@ -108,11 +108,13 @@
     text-decoration: none;
     display: block;
     text-align: left;
+    background-color: var(--maincolour);
 }
   
 .dropdown-content a:hover 
 {
-    background-color: var(--maincolour);
+    color: var(--maincolour);
+    background-color: black;
 }
   
 .dropdown:hover .dropdown-content
