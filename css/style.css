@@ -174,6 +174,11 @@
     color: var(--maincolour);
 }
 
+.self-text-box
+{
+    justify-content: center;
+}
+
 .small_text
 {
     color: var(--maincolour);
@@ -184,6 +189,7 @@
 .large_text
 {
     color: var(--highlightcolur);
+    text-shadow: 1px 1px 10px var(--highlightcolur);
     padding: 0px 0px 14px 16px;
     text-decoration: none;
     font-family: AKIRA;
