@@ -51,6 +51,7 @@
 {
     position: absolute;
     width: 100%;
+    padding-top: 10px;
     top: 0;
     right: 0;
     min-width: 300px;
