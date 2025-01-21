@@ -288,3 +288,12 @@
     padding: 50px;
     justify-content: center;
 }
+
+.about_box
+{
+
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+}
