@@ -49,7 +49,9 @@
 /*Horizontal*/
 .sidenavb 
 {
-    width: 10vw;
+    width: 100%;
+    top: 0;
+    right: 0;
     min-width: 300px;
     padding: 50px;
     font-size: 30px;
@@ -61,7 +63,6 @@
 .sidenavb a 
 {
     float: left;
-    /*display: contents;*/ /*Brain hurt figure out later*/
     color: var(--maincolour);
     padding: 14px 16px;
     text-decoration: none; 
