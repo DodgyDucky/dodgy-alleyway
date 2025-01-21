@@ -49,11 +49,11 @@
 /*Horizontal*/
 .sidenavb 
 {
+    position: absolute;
     width: 100%;
     top: 0;
     right: 0;
     min-width: 300px;
-    padding: 50px;
     font-size: 30px;
     color: var(--maincolour);
     z-index: 1;
