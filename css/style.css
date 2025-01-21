@@ -4,8 +4,8 @@
 :root
 {
     --maincolour: white;
+    --mainglow:#ccc;
     --highlightcolur: rgb(198, 145, 233);
-    --bloglow: #9d00ff;
 }
 
 /*HEADER & FOOTER*/
@@ -43,7 +43,7 @@
 .sidenav a:hover, .dropdown:hover .dropbtn 
 {
     color: white;
-    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*This makes it glow*/
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px var(--mainglow); /*This makes it glow*/
 }
 
 /*Horizontal*/
@@ -71,7 +71,7 @@
 .sidenavb a:hover, .dropdown:hover .dropbtn 
 {
     color: white;
-    text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; /*This makes it glow*/
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px var(--mainglow); 
 }
 
 .dropdown 
@@ -258,7 +258,7 @@
 .date_text
 {
     color: white;
-    text-shadow:1px 1px 10px #fff, 1px 1px 10px var(--bloglow);
+    text-shadow:1px 1px 10px #fff, 1px 1px 10px var(--mainglow);
     padding: 14px 16px;
     text-decoration: none;
     font-family: AKIRA;
@@ -274,7 +274,7 @@
     text-align: justify;
     font-family: MOM;
     /*background: gray;
-    display: inline;*/
+    display: inline;*/  /*FIGURE OUT LATER*/
 }
 
 /*Other*/
