@@ -295,9 +295,14 @@
 
 .about_box
 {
-
     display: flex;
     flex-direction: row;
+    padding: 50px;
+    align-items: center;
+}
+
+.anarchie_box
+{
     padding: 50px;
     align-items: center;
 }
