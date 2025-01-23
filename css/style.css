@@ -196,7 +196,7 @@
 {
     color: var(--highlightcolur);
     text-shadow: 1px 1px 10px var(--highlightcolur);
-    padding: 0px 0px 14px 16px;
+    padding: 0px 16px 14px 16px;
     text-decoration: none;
     font-family: AKIRA;
     font-size: 25px;
@@ -303,6 +303,8 @@
 
 .anarchie_box
 {
+    width: 100%;
+    text-align: center;
     padding: 50px;
     align-items: center;
 }
