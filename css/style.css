@@ -196,10 +196,11 @@
 {
     color: var(--highlightcolur);
     text-shadow: 1px 1px 10px var(--highlightcolur);
-    padding: 0px 16px 14px 16px;
+    padding: 50px 16px 48px 16px;
     text-decoration: none;
     font-family: AKIRA;
     font-size: 100px;
+    line-height: 0;
 }
 
 .large_text_stroke0
@@ -207,7 +208,7 @@
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--maincolour);
-    padding: 0px 16px;
+    padding: 50px 16px 0px 16px;
     text-decoration: none;
     font-family: AKIRA;
     font-size: 95px;
@@ -219,7 +220,7 @@
     color: transparent;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: var(--maincolour);
-    padding: 0px 16px;
+    padding: 50px 16px 0px 16px;
     text-decoration: none;
     font-family: AKIRA;
     font-size: 90px;
@@ -231,7 +232,7 @@
     color: transparent;
     -webkit-text-stroke-width: 0.25px;
     -webkit-text-stroke-color: var(--maincolour);
-    padding: 0px 16px;
+    padding: 50px 16px 0px 16px;
     text-decoration: none;
     font-family: AKIRA;
     font-size: 85px;
