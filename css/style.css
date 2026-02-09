@@ -199,7 +199,7 @@
     padding: 0px 16px 14px 16px;
     text-decoration: none;
     font-family: AKIRA;
-    font-size: 25px;
+    font-size: 100px;
 }
 
 .large_text_stroke0
@@ -210,7 +210,8 @@
     padding: 0px 16px;
     text-decoration: none;
     font-family: AKIRA;
-    font-size: 25px;
+    font-size: 95px;
+    line-height: 0;
 }
 
 .large_text_stroke1
@@ -221,7 +222,8 @@
     padding: 0px 16px;
     text-decoration: none;
     font-family: AKIRA;
-    font-size: 25px;
+    font-size: 90px;
+    line-height: 0;
 }
 
 .large_text_stroke2
@@ -232,7 +234,8 @@
     padding: 0px 16px;
     text-decoration: none;
     font-family: AKIRA;
-    font-size: 25px;
+    font-size: 85px;
+    line-height: 0;
 }
 
 
