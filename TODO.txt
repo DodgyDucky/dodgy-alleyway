@@ -1,6 +1,4 @@
 - add and update social links 
   - add to about me and home page
-  - update across projects
 - streamline anarchie and music pages
-- update pilgrim pages
-- finish nDie logo
+
