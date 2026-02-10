@@ -110,7 +110,10 @@ body
 
 table
 {
-    
-    margin-left:auto;
-    margin-right:auto;
+    margin-inline: auto;
+}
+
+th
+{
+    float: left;
 }
