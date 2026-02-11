@@ -311,6 +311,14 @@
     width: 30vw;
 }
 
+.music_bo
+{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+}   
+
 .anarchie_box
 {
     width: 100%;
