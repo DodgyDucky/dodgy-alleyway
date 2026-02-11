@@ -311,6 +311,12 @@
     width: 30vw;
 }
 
+.music_horizontal
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .music_box
 {
     display: flex;
