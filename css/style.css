@@ -171,19 +171,6 @@
 }
 
 /*TEXT*/
-.home-text-box
-{
-    width: 100%;
-    padding: 100px;
-    color: var(--maincolour);
-}
-
-.self-text-box
-{
-    width: 455px;
-    text-align: justify;
-}
-
 .small_text
 {
     color: var(--maincolour);
@@ -304,6 +291,24 @@
     flex-direction: row;
     padding: 50px;
     align-items: center;
+}
+
+.home-text-box
+{
+    width: 100%;
+    padding: 100px;
+    color: var(--maincolour);
+}
+
+.self-text-box
+{
+    width: 30vw;
+    text-align: justify;
+}
+
+.image_box
+{
+    width: 30vw;
 }
 
 .anarchie_box
