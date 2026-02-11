@@ -323,7 +323,12 @@
     flex-direction: row;
     padding: 50px;
     align-items: center;
-}   
+}
+
+.music_info_box
+{
+    
+}
 
 .anarchie_box
 {
