@@ -315,6 +315,10 @@
 {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
 }
 
 .music_box
@@ -327,7 +331,7 @@
 
 .music_info_box
 {
-    
+
 }
 
 .anarchie_box
