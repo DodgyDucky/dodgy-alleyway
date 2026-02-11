@@ -346,3 +346,9 @@
 {
     box-shadow: 8px 8px 8px var(--highlightcolur);
 }
+
+.under_development
+{
+    text-align: center;
+    align-items: center;
+}
