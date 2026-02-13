@@ -310,6 +310,7 @@
 .image_box
 {
     width: 30vw;
+    box-shadow: 8px 8px 8px var(--highlightcolur);
 }
 
 .music_horizontal
