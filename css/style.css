@@ -200,7 +200,9 @@
     text-decoration: none;
     font-family: AKIRA;
     font-size: 3vw;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .large_text_stroke0
@@ -295,6 +297,7 @@
     flex-direction: row;
     padding: 50px;
     justify-content: center;
+    margin-inline: auto;
 }
 
 .about_box
