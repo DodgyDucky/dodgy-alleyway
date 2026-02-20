@@ -196,10 +196,10 @@
 {
     color: var(--highlightcolur);
     text-shadow: 1px 1px 10px var(--highlightcolur);
-    padding: 1vw 16px 3vw 16px;
+    padding: 1vw 16px 1vw 16px;
     text-decoration: none;
     font-family: AKIRA;
-    font-size: 3vw;
+    font-size: 4vw;
     display: flex;
     justify-content: center;
     align-items: center;
