@@ -192,6 +192,16 @@
     line-height: 0;
 }
 
+.large_text_reg
+{
+    color: var(--highlightcolur);
+    text-shadow: 1px 1px 10px var(--highlightcolur);
+    padding: 1vw 16px 3vw 16px;
+    text-decoration: none;
+    font-family: AKIRA;
+    font-size: 3vw;
+}
+
 .large_text_stroke0
 {
     color: transparent;
