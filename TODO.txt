@@ -1,4 +1,3 @@
 - add and update social links 
   - add to about me and home page
-- streamline anarchie and music pages
 
