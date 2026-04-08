@@ -297,15 +297,15 @@
 /* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 25%;
 }
 
 /* The Modal (background) */
 .modal {
   display: none;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   padding-top: 100px;
+  padding-bottom: 100px;
   left: 0;
   top: 0;
   width: 100%;
@@ -317,7 +317,6 @@
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
   margin: auto;
   padding: 0;
   width: 90%;
