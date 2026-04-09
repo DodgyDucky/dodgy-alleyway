@@ -9,19 +9,19 @@ function closeModal0() {
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides0(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides0(n) {
+  showSlides0(slideIndex += n);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide0(n) {
+  showSlides0(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides0(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides0");
   var dots = document.getElementsByClassName("demo");
@@ -52,19 +52,19 @@ function closeModal1() {
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides1(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusSlides1(n) {
+  showSlides1(slideIndex += n);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide1(n) {
+  showSlides1(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides1(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides1");
   var dots = document.getElementsByClassName("demo");
