@@ -1,9 +1,9 @@
-// Open the Modal
+// MODAL 1
+
 function openModal0() {
   document.getElementById("myModal0").style.display = "block";
 }
 
-// Close the Modal
 function closeModal0() {
   document.getElementById("myModal0").style.display = "none";
 }
@@ -40,8 +40,7 @@ function showSlides0(n) {
 }
 
 
-
-
+// MODAL 2
 
 function openModal1() {
   document.getElementById("myModal1").style.display = "block";
@@ -54,12 +53,10 @@ function closeModal1() {
 var slideIndex = 1;
 showSlides1(slideIndex);
 
-// Next/previous controls
 function plusSlides1(n) {
   showSlides1(slideIndex += n);
 }
 
-// Thumbnail image controls
 function currentSlide1(n) {
   showSlides1(slideIndex = n);
 }

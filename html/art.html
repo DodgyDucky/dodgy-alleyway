@@ -22,8 +22,6 @@
         });
     </script> 
 
-    
-
 </head>
 <body>
     <div class="page-container">
@@ -32,9 +30,9 @@
 
         <!-- -------------------------------------- -->
 
-        <script src="scripts/modals.js"></script> <!-- Modal -->  
+        <script src="scripts/modals.js"></script> <!-- Modal Script-->  
 
-        <!-- Images used to open the lightbox -->
+        <!-- Image Table -->
         <div class="row">
             <div class="column">
                 <img src="../assets/temp/img1.jpg" width="300" onclick="openModal0();currentSlide0(1)" class="hover-shadow">
@@ -43,14 +41,14 @@
                 <img src="../assets/temp/img2.jpg" width="300" onclick="openModal1();currentSlide1(1)" class="hover-shadow">
             </div>
             <div class="column">
-                <img src="../assets/temp/img3.jpg" width="300" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                <img src="../assets/temp/img3.jpg" width="300" onclick="openModal();currentSlide(3)" class="hover-shadow"> <!--DEAD-->
             </div>
             <div class="column">
-                <img src="../assets/temp/img4.jpg" width="300" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                <img src="../assets/temp/img4.jpg" width="300" onclick="openModal();currentSlide(4)" class="hover-shadow"> <!--DEAD-->
             </div>
         </div>
 
-        <!-- The Modal/Lightbox -->
+        <!-- Modal 1 -->
         <div id="myModal0" class="modal">
             <span class="close cursor" onclick="closeModal0()">&times;</span>
             <div class="modal-content">
@@ -75,16 +73,13 @@
                 <img src="../assets/temp/img1.jpg" style="height:60vh;display: block;margin: auto;">
                 </div>
 
-                <!-- Next/previous controls -->
                 <a class="prev" onclick="plusSlides0(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides0(1)">&#10095;</a>
 
-                <!-- Caption text -->
                 <div class="caption-container">
                 <p id="caption0"></p>
                 </div>
 
-                <!-- Thumbnail image controls -->
                 <div class="column">
                 <img class="demo" src="../assets/temp/img1.jpg" width="100" onclick="currentSlide0(1)" alt="Test 1">
                 </div>
@@ -103,6 +98,7 @@
             </div>
         </div>
 
+        <!-- Modal 2 -->
         <div id="myModal1" class="modal">
             <span class="close cursor" onclick="closeModal1()">&times;</span>
             <div class="modal-content">
@@ -127,16 +123,13 @@
                 <img src="../assets/temp/img2.jpg" style="height:60vh;display: block;margin: auto;">
                 </div>
 
-                <!-- Next/previous controls -->
                 <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides1(1)">&#10095;</a>
 
-                <!-- Caption text -->
                 <div class="caption-container">
                 <p id="caption1"></p>
                 </div>
 
-                <!-- Thumbnail image controls -->
                 <div class="column">
                 <img class="demo" src="../assets/temp/img2.jpg" width="100" onclick="currentSlide1(1)" alt="Test 1">
                 </div>
@@ -156,7 +149,6 @@
         </div>
 
         <!-- -------------------------------------- -->
-
 
     </div>
 
