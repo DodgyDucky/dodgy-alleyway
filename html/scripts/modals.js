@@ -24,7 +24,7 @@ function currentSlide0(n) {
 function showSlides0(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides0");
-  var dots = document.getElementsByClassName("demo");
+  var dots = document.getElementsByClassName("demo0");
   var captionText = document.getElementById("caption0");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -64,7 +64,7 @@ function currentSlide1(n) {
 function showSlides1(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides1");
-  var dots = document.getElementsByClassName("demo");
+  var dots = document.getElementsByClassName("demo1");
   var captionText = document.getElementById("caption1");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
