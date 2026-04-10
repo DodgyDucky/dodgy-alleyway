@@ -397,12 +397,14 @@
   color: white;
 }
 
-img.demo {
+img.demo0,
+img.demo1 {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demo1:hover,
+.demo0:hover {
   opacity: 1;
 }
 
