@@ -284,6 +284,11 @@
 }
 
 /*MODAL*/
+.row{
+    margin-inline: auto;
+    padding-top: 100px;
+}
+
 .row > .column {
   padding: 0 8px;
 }
