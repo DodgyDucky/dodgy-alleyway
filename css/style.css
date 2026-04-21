@@ -393,13 +393,14 @@
 .caption-container {
   text-align: center;
   background-color: black;
-  padding: 2px 16px;
+  padding: 16px 16px;
   color: white;
 }
 
 img.demo0,
 img.demo1 {
   opacity: 0.6;
+  margin: 10px;
 }
 
 .active,
