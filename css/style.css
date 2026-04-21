@@ -398,14 +398,24 @@
 }
 
 img.demo0,
-img.demo1 {
+img.demo1,
+img.demo2,
+img.demo3,
+img.demo4,
+img.demo5,
+img.demo6 {
   opacity: 0.6;
   margin: 10px;
 }
 
 .active,
+.demo0:hover,
 .demo1:hover,
-.demo0:hover {
+.demo2:hover,
+.demo3:hover,
+.demo4:hover,
+.demo5:hover,
+.demo6:hover {
   opacity: 1;
 }
 
