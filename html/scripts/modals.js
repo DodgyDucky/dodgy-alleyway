@@ -93,7 +93,7 @@ function closeModal2() {
 var slideIndex = 1;
 showSlides2(slideIndex);
 
-function plusSlides1(n) {
+function plusSlides2(n) {
   showSlides2(slideIndex += n);
 }
 
